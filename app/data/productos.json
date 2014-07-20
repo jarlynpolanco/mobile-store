@@ -1,0 +1,90 @@
+[
+    {
+        "codigo": "ip-04-01",
+        "modelo": "IPhone 4",
+        "marca": "Apple",
+        "descripcion": "Este es un celular de prueba prar que veamos como funciona todo",
+        "caracteristicas": {
+            "color": "blanco",
+            "tamano": "4"
+        },
+        "imagenes": [
+            {
+                "id": 1,
+                "imagen": "iphone4.jpeg",
+                "thumnail": "iphone4-small.jpeg"
+            },
+            {
+                "id": 2,
+                "imagen": "iphone4.jpeg",
+                "thumnail": "iphone4-small.jpeg"
+            }
+        ]
+    },
+    {
+        "codigo": "ip-04-01",
+        "modelo": "IPhone 4",
+        "marca": "Apple",
+        "descripcion": "Este es un celular de prueba prar que veamos como funciona todo",
+        "caracteristicas": {
+            "color": "blanco",
+            "tamano": "4"
+        },
+        "imagenes": [
+            {
+                "id": 1,
+                "imagen": "iphone4.jpeg",
+                "thumnail": "iphone4-small.jpeg"
+            },
+            {
+                "id": 2,
+                "imagen": "iphone4.jpeg",
+                "thumnail": "iphone4-small.jpeg"
+            }
+        ]
+    },
+    {
+        "codigo": "ip-04-01",
+        "modelo": "IPhone 4",
+        "marca": "Apple",
+        "descripcion": "Este es un celular de prueba prar que veamos como funciona todo",
+        "caracteristicas": {
+            "color": "blanco",
+            "tamano": "4"
+        },
+        "imagenes": [
+            {
+                "id": 1,
+                "imagen": "iphone4.jpeg",
+                "thumnail": "iphone4-small.jpeg"
+            },
+            {
+                "id": 2,
+                "imagen": "iphone4.jpeg",
+                "thumnail": "iphone4-small.jpeg"
+            }
+        ]
+    },
+    {
+        "codigo": "ip-04-01",
+        "modelo": "IPhone 4",
+        "marca": "Apple",
+        "descripcion": "Este es un celular de prueba prar que veamos como funciona todo",
+        "caracteristicas": {
+            "color": "blanco",
+            "tamano": "4"
+        },
+        "imagenes": [
+            {
+                "id": 1,
+                "imagen": "iphone4.jpeg",
+                "thumnail": "iphone4-small.jpeg"
+            },
+            {
+                "id": 2,
+                "imagen": "iphone4.jpeg",
+                "thumnail": "iphone4-small.jpeg"
+            }
+        ]
+    }
+]

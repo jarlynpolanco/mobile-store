@@ -1,0 +1,15 @@
+<div class="container" ng-controller="ProductosController as pCtrl">
+    <div class="row row-offcanvas row-offcanvas-right">
+        <div class="row">
+            <div class="col-6 col-sm-6 col-lg-4" ng-repeat="producto in pCtrl.productos">
+                <div class="panel panel-default">
+                <div class="panel-body">
+                    {{producto.descripcion}}
+                </div>
+                <div class="panel-footer">{{producto.modelo}}</div>
+            </div>
+            </div><!--/span-->
+        </div><!--/row-->
+    </div><!--/row-->
+    <hr>
+</div><!--/.container-->

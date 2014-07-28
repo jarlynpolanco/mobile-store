@@ -1,1 +1,2 @@
-#tienda de mobiles web para probar cono funciona angular.js
+#tienda de mobiles
+un proyecto para probar el funcionamiento de angular.js

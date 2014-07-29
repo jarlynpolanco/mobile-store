@@ -6,7 +6,7 @@
             restrict: "E",
             templateUrl: "partials/menu-principal.html",
             controller: function() {
-                this.tab = 1;
+                this.tab = {};
 
                 this.isSet = function(checkTab) {
                     return this.tab === checkTab;

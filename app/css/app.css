@@ -28,3 +28,9 @@
   content: "";
   padding: 0;
 }
+
+.popover-example .popover {
+  position: relative;
+  display: block;
+  margin: 20px;
+}

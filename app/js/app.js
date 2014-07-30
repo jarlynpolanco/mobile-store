@@ -8,6 +8,15 @@
             $routeProvider.when('/error', {templateUrl: 'partials/error.html', controller: 'MyCtrl1'});
             $routeProvider.otherwise({redirectTo: '/inicio'});
         }]);
+
+    app.directive('holderFix', function() {
+        return {
+            link: function(scope, element, attrs) {
+                Holder.run({images: element[0], nocss: true});
+            }
+        };
+    });
+    
 })();
 
 

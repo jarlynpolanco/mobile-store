@@ -1,15 +1,19 @@
-<div class="container" ng-controller="ProductosController as pCtrl">
+<section ng-controller="ProductosController as pCtrl">
     <div class="row row-offcanvas row-offcanvas-right">
+        <br/>
+        <div class="clearfix"></div>
         <div class="row">
-            <div class="col-6 col-sm-6 col-lg-4" ng-repeat="producto in pCtrl.productos">
-                <div class="panel panel-default">
-                <div class="panel-body">
-                    {{producto.descripcion}}
+            <div class="col-sm-6 col-md-3" ng-repeat="producto in pCtrl.productos">
+                <div class="thumbnail">
+                    <img data-src="holder.js/300x300" alt="..." holder-fix>
+                    <div class="caption">
+                        <h3>{{producto.modelo}}</h3>
+                        <p>{{producto.descripcion}}</p>
+                        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                    </div>
                 </div>
-                <div class="panel-footer">{{producto.modelo}}</div>
             </div>
-            </div><!--/span-->
         </div><!--/row-->
     </div><!--/row-->
     <hr>
-</div><!--/.container-->
+</section>

@@ -1,15 +1,14 @@
 {
-  "name": "angular-seed",
-  "description": "A starter project for AngularJS",
+  "name": "movil-store",
+  "description": "CCCDigital tienda de moviles y servicios de Claro",
   "version": "0.0.3",
-  "homepage": "https://github.com/angular/angular-seed",
+  "homepage": "http://cccdigital.net/",
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "angular": "1.2.x",
-    "angular-route": "1.2.x",
-    "angular-loader": "1.2.x",
-    "angular-mocks": "~1.2.x",
+    "angular": "1.x",
+    "angular-ui-router": "0.2.x",
+    "jquery": "2.x",
     "html5-boilerplate": "~4.3.0"
   }
 }

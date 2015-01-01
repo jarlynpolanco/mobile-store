@@ -1,9 +1,39 @@
 <div class="container">
-    <center>
-        <h3>
-            <img src="img/ccc-logo.png" alt="CCC Digital"/>
-        </h3>
-    </center>
+    <div class="popover-example">
+        <div class="popover top">
+            <div class="arrow"></div>
+            <div class="popover-content">
+                <p>Si esta registrado como socio haga click <a href="#/privado">aqui</a></p>
+            </div>
+        </div>
+    </div> 
+    <div class="masthead">
+        <center>
+            <h3>
+                <img src="img/ccc-logo.png" alt="CCC Digital"/>
+            </h3>
+        </center>
+        <ul class="nav nav-justified">
+            <li ng-class="{active:tabMenu.isSet(1)}" ng-click="tabMenu.setTab(1)">
+                <a href="#">Inicio</a>
+            </li>
+            <li ng-class="{active:tabMenu.isSet(2)}" ng-click="tabMenu.setTab(2)">
+                <a href="#/productos">Productos</a>
+            </li>
+            <li ng-class="{active:tabMenu.isSet(3)}" ng-click="tabMenu.setTab(3)">
+                <a href="#/servicios">Servicios</a>
+            </li>
+            <li ng-class="{active:tabMenu.isSet(4)}" ng-click="tabMenu.setTab(4)">
+                <a href="#/socios">Socios</a>
+            </li>
+            <li ng-class="{active:tabMenu.isSet(5)}" ng-click="tabMenu.setTab(5)">
+                <a href="#/nosotros">Nosotros</a>
+            </li>
+            <li ng-class="{active:tabMenu.isSet(6)}" ng-click="tabMenu.setTab(6)">
+                <a href="#/contactos">Contactos</a>
+            </li>
+        </ul>
+    </div>
     <div ui-view></div>
     <div class="footer">
         <p>&copy; CCCDigital 2014 | Powered by KodeLabs&ic;</p>
